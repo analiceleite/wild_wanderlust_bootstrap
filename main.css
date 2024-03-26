@@ -36,7 +36,8 @@ body {
 }
 
 #sobre,
-#destinos {
+#destinos,
+#depoimentos {
   background-color: #d9f8d5;
 }
 
@@ -63,7 +64,7 @@ body {
   color: #a0c14f;
 }
 
-.depoimento {
+.depoimento { 
   font-family: "Roboto";
   color: white;
   background-color: #a0c14f;
