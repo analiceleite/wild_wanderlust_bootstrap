@@ -1,49 +1,93 @@
 .carousel-inner img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
-
-body {
-    font-family: Roboto, sans-serif;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
+}
+body {
+  font-family: Roboto, sans-serif;
 }
 
 .navbar {
-    /* background-color: #7fd39b; */
-    background-color: #A0C14F;
+  background-color: #a0c14f;
 }
 
-#cabecalho .nav .nav-link.active {
-    background-color: #fff;
-    color: #e15f41;
+#cabecalho .nav .nav-link:active {
+  background-color: #fff;
+  color: #a0c14f;
 }
 
 #cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover,
-.nav-destino .nav-link.active:hover {
-    color: #fff;
+.navbar-brand:hover {
+  color: #fff;
 }
 
-#destino {
-    background-color: #FFD8A8;
+.navbar-toggler {
+  background-color: #ffffff;
 }
 
 .section-title {
-    font-family: Pacifico, cursive;
+  font-family: Pacifico, cursive;
+}
+
+#sobre,
+#destinos {
+  background-color: #d9f8d5;
+}
+
+#destinos button {
+  color: #a0c14f;
+}
+
+#destinos button.active {
+  color: white;
+  background-color: #a0c14f;
 }
 
 .text-colored {
-    color: #e15f41;
+  color: #a0c14f;
+}
+
+.nav-destinos .nav-link.active,
+#contato button {
+  background-color: #a0c14f;
+  color: #fff;
+}
+
+.nav-destinos .nav-link:hover {
+  color: #a0c14f;
+}
+
+.depoimento {
+  font-family: "Roboto";
+  color: white;
+  background-color: #a0c14f;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buttons-depoimento button.carousel-control-prev, 
+.buttons-depoimento button.carousel-control-next {
+    border-radius: 8px;
+    background: #a0c14f;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
-    .carousel-item img {
-        height: 280px;
-    }
+  .carousel-item img {
+    height: 280px;
+  }
 }
